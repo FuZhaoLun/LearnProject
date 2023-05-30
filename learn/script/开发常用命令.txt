@@ -1,0 +1,28 @@
+#使用chmod命令给脚本文件添加执行权限
+chmod +x start.sh
+
+#执行启动脚本
+./start.sh
+
+#在
+
+
+#根据jar包查找进程
+ps auxwww | grep highway-scheduling-manage-1.0-SNAPSHOT.jar
+
+#查找指定端口进程并结束进程
+netstat -ntulp | grep 8084
+kill -9 进程号
+
+#查找指定端口进程并结束进程（Windows命令）
+netstat -ano | findstr 8088
+taskkill /f /pid 18512
+
+#生成gitlab秘钥
+ssh-keygen -t rsa -C '2528782764@qq.com'
+
+#更新git仓库信息
+git remote update origin --prune
+
+#解决vue依赖版本冲突
+npm install eslint-plugin-vue --legacy-peer-deps

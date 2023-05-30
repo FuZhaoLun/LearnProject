@@ -1,0 +1,3 @@
+#!/bin/sh
+   /path/to/start.sh
+   exit 0
